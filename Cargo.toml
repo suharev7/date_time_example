@@ -1,0 +1,10 @@
+[package]
+name = "date_time_example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clickhouse-rs = { git = "https://github.com/suharev7/clickhouse-rs" }
+tokio = {version = "*", features = ["full"]}
+chrono = "0.4"
+chrono-tz = "0.6"
